@@ -13,6 +13,7 @@
 		15F555362D21C4E200986F1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F555352D21C4E200986F1C /* Preview Assets.xcassets */; };
 		15F555382D21C4E200986F1C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F555372D21C4E200986F1C /* Persistence.swift */; };
 		15F5553B2D21C4E200986F1C /* Tu_Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15F555392D21C4E200986F1C /* Tu_Todo.xcdatamodeld */; };
+		15F555432D21C8A900986F1C /* AddTooView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F555422D21C8A900986F1C /* AddTooView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		15F555352D21C4E200986F1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15F555372D21C4E200986F1C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		15F5553A2D21C4E200986F1C /* Tu_Todo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tu_Todo.xcdatamodel; sourceTree = "<group>"; };
+		15F555422D21C8A900986F1C /* AddTooView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTooView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				15F5552E2D21C4E000986F1C /* Tu_TodoApp.swift */,
-				15F555302D21C4E000986F1C /* ContentView.swift */,
+				15F555412D21C5E100986F1C /* View */,
 				15F555322D21C4E200986F1C /* Assets.xcassets */,
 				15F555372D21C4E200986F1C /* Persistence.swift */,
 				15F555392D21C4E200986F1C /* Tu_Todo.xcdatamodeld */,
@@ -71,6 +73,15 @@
 				15F555352D21C4E200986F1C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15F555412D21C5E100986F1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15F555302D21C4E000986F1C /* ContentView.swift */,
+				15F555422D21C8A900986F1C /* AddTooView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 				15F555382D21C4E200986F1C /* Persistence.swift in Sources */,
 				15F555312D21C4E000986F1C /* ContentView.swift in Sources */,
 				15F5553B2D21C4E200986F1C /* Tu_Todo.xcdatamodeld in Sources */,
+				15F555432D21C8A900986F1C /* AddTooView.swift in Sources */,
 				15F5552F2D21C4E000986F1C /* Tu_TodoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
